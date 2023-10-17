@@ -1,0 +1,40 @@
+﻿struggle_nation_ending_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+
+	is_shown = {
+		debug_only = yes
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult_or_is_commanding = yes
+	}
+	effect = {
+		custom_tooltip = wild_goose_chase_decision_effect_tooltip
+		remove_short_term_gold = 13
+		add_stress = 20
+	}
+
+	ai_check_interval = 0
+}
+
+sn_set_struggle_region_has_title_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+
+	is_shown = {
+		debug_only = yes
+	}
+
+	ai_check_interval = 0
+	effect = {
+		# every_held_title.location = {
+		# 	limit = { tier = duchy }
+		# 	add_to_list = custom_player_dominion.duchies
+		# }
+		root.location = {
+			# primary_title  = {
+			# 	add_to_list = custom_player_dominion.duchies
+			# }
+			add_to_list = custom_player_dominion.duchies
+		}
+	}
+}

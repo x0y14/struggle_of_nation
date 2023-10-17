@@ -1,0 +1,66 @@
+﻿nation_struggle = {
+	cultures = {}
+	faiths = {}
+	regions = {
+		custom_player_dominion
+	}
+
+	involvement_prerequisite_percentage = 1.0
+
+	on_start = {}
+	on_change_phase = {}
+	on_join = {}
+
+	start_phase = struggle_nation_phase_phase1
+
+	phase_list = {
+		struggle_nation_phase_phase1 = {
+			background = "gfx/interface/illustrations/struggle_backgrounds/struggle_opportunity_bg.dds"
+			future_phases = {
+			}
+			war_effects = {
+			}
+			faith_effects = {
+			}
+			culture_effects = {
+			}
+			other_effects = {
+			}
+			ending_decisions = {
+				struggle_nation_ending_decision
+			}
+		}
+		struggle_nation_phase_phase2 = {
+			background = "gfx/interface/illustrations/struggle_backgrounds/struggle_opportunity_bg.dds"
+			future_phases = {
+			}
+			war_effects = {
+			}
+			faith_effects = {
+			}
+			culture_effects = {
+			}
+			other_effects = {
+			}
+			ending_decisions = {
+				struggle_nation_ending_decision
+			}
+		}
+		struggle_nation_phase_phase3 = {
+			background = "gfx/interface/illustrations/struggle_backgrounds/struggle_opportunity_bg.dds"
+			future_phases = {
+			}
+			war_effects = {
+			}
+			faith_effects = {
+			}
+			culture_effects = {
+			}
+			other_effects = {
+			}
+			ending_decisions = {
+				struggle_nation_ending_decision
+			}
+		}
+	}
+}

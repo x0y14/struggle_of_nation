@@ -1,0 +1,7 @@
+custom_player_dominion = {
+	duchies = {
+		d_munster
+	}
+	regions = {
+	}
+}

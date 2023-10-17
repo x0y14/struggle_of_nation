@@ -1,0 +1,14 @@
+# for start struggle
+k_fashion = {
+	1.1.1 = {
+		effect = {
+			if = {
+				limit = { has_dlc_feature = the_fate_of_iberia }
+				start_struggle = {
+					struggle_type = nation_struggle
+					start_phase = struggle_nation_phase_phase1
+				}
+			}		
+		}
+	}
+}
